@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AntInput field render's properly with <Formik> 1`] = `
+<DocumentFragment>
+  <form>
+    <div
+      class="field-container"
+    >
+      <div
+        class="ant-row ant-form-item"
+      >
+        <div
+          class="ant-col ant-form-item-label"
+        >
+          <label
+            class=""
+            title="username"
+          >
+            username
+          </label>
+        </div>
+        <div
+          class="ant-col ant-form-item-control-wrapper"
+        >
+          <div
+            class="ant-form-item-control has-success"
+          >
+            <span
+              class="ant-form-item-children"
+            >
+              <input
+                autocomplete="off"
+                class="ant-input"
+                id="username"
+                name="username"
+                type="text"
+                value=""
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button
+      class="ant-btn"
+      type="submit"
+    >
+      <span>
+        submit
+      </span>
+    </button>
+  </form>
+</DocumentFragment>
+`;

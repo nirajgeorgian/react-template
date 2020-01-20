@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<DocumentFragment>
+  <div>
+    <img
+      alt=""
+      src="http://www.hdnicewallpapers.com/Walls/Big/Beach/Beautiful_Bondi_Beach_in_Australia_2018_Travel_HD_Wallpaper.jpg"
+    />
+  </div>
+  <div>
+    <h2>
+      Satyology Experiences
+    </h2>
+    <p>
+      <b>
+        Indulge in the culture of every city like a local.
+      </b>
+    </p>
+    <p>
+      <button
+        class="ant-btn ant-btn-background-ghost"
+        type="button"
+      >
+        <span>
+          Explore Experiences
+        </span>
+      </button>
+    </p>
+    <p />
+  </div>
+</DocumentFragment>
+`;

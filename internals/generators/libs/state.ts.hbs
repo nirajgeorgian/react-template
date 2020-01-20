@@ -1,0 +1,31 @@
+/*
+*
+* {{  name }} state
+*
+*/
+import { Record, List } from 'immutable'
+import { RootState, StateType } from 'typesafe-actions'
+
+export interface I{{ properCase name }}State {
+initialized: boolean
+loading: boolean
+error: string | null
+runningOperations: List<string>
+	}
+
+	export const IInitialState = Record<I{{ properCase  name }}State>({
+		initialized: false,
+		loading: false,
+		error: null,
+		runningOperations: List([])
+		})
+		export const iInitial{{ properCase  name }}State = new IInitialState()
+
+		export const iInitial{{ properCase name }}ReduxRecord = Record({ auth: iInitial{{ properCase  name }}State })
+		export const iInitial{{ properCase name }}Redux = new iInitial{{ properCase name }}ReduxRecord()
+
+		export type {{ properCase name }}State = typeof iInitial{{ properCase name }}State
+		export type {{ properCase name }}Record = Record<StateType<typeof iInitial{{ properCase name }}ReduxRecord>>
+			export type {{ properCase  name }}RootState = RootState & {{ properCase  name }}Record
+
+			export default iInitial{{ properCase  name }}State

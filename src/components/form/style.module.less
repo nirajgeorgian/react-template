@@ -1,0 +1,457 @@
+.title_select_option {
+	div {
+		height: 3rem;
+	}
+}
+
+// --------- stayology-select ----------------
+.stayology_select_outer {
+	display: flex;
+	flex-direction: column;
+	box-shadow: none !important;
+	
+
+	div {
+		box-shadow: none !important;
+		width: 100%;
+	}
+}
+
+.satyology_select_header {
+	
+	text-align: left;
+	// margin-left: 9%;
+	line-height: 100%;
+}
+
+.satyology_select_footer {
+	text-align: left;
+	// margin-left: 9%;
+}
+
+
+.satyology_select {
+	display: flex;
+}
+
+.satyology_select_source {
+	display: flex;
+	flex-direction: column;
+	margin: 2%;
+	font-size: 2rem;
+}
+
+.satyology_select_icon {
+	margin: 2%;
+
+	img {
+		width: 7rem;
+	}
+}
+
+.satyology_select_destination {
+	display: flex;
+	flex-direction: column;
+	margin: 2%;
+	font-size: 2rem;
+	border: 0 !important;
+}
+
+// --------- stayology-button ----------------
+.stayology_button {
+	box-shadow: none !important;
+	color: #fff !important;
+
+	&:hover,
+	&:focus {
+		border-color: #d9d9d9 !important;
+	}
+
+	span {
+		text-shadow: none !important;
+	}
+}
+
+.stayology_button_primary {
+	background-color: #32eb28 !important;
+	border-color: #32eb28 !important;
+	border-radius: 0;
+
+	&:hover,
+	&:focus {
+		border-color: #32eb28 !important;
+	}
+}
+
+.stayology_button_secondary {
+	background-color: #0a0a0a !important;
+	color: blanchedalmond !important;
+	border-color: #ffffff !important;
+	border-radius: 0;
+
+	&:hover,
+	&:focus {
+		border-color: #0a0a0a !important;
+	}
+}
+
+// ---------------------Event Tile--------------------
+
+.EventTile {
+	// color: black;
+	// background-color: #F5F5F5;
+	// padding: 2.5%;
+	// height: 100%;
+	// width: 100%;
+	// display: flex;
+	// flex-direction: row;
+	// justify-content: space-between;
+	// border-radius: 4px;
+	font-family: 'Lato', sans-serif;
+}
+
+.EventTile_card {
+	box-shadow: 0px 0px 3px rgba(132, 136, 136, 0.342) !important;
+	border-radius: 4;
+	width: 100%;
+	height: 290px !important;
+	background-color: #ffffff 0% 0% no-repeat padding-box;
+	&:hover,
+	&:focus {
+		background-color: #f5f5f5;
+	}
+
+	div {
+		padding-top: 3px !important;
+	}
+}
+
+.EventTile_card_outerdiv {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	// padding: 2px !important;
+}
+
+.EventTile_league_logo_div {
+	width: 2%;
+}
+
+.EventTile_league_logo {
+	width: 2.5rem;
+}
+
+.EventTile_card_content {
+	width: 100%;
+	padding: '3%';
+	// margin
+}
+
+.EventTile_card_team_name {
+	font-size: 1.1rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.EventTile_card_location {
+	font-size: 0.7rem;
+	font-weight: 300;
+	line-height: 0.3rem;
+}
+
+.EventTile_price {
+	text-align: center;
+	margin-top: 3%;
+	font-weight: 600;
+	color: black
+}
+
+.EventTile_teams {
+	width: 20%;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+
+	div {
+		img {
+			width: 1.8rem;
+		}
+	}
+}
+
+.EventTile_datetime {
+	margin-bottom: 10%;
+	width: 15%;
+}
+
+.EventTile_tag {
+	border-radius: 0px !important;
+	box-shadow: none !important;
+
+	span {
+		color: black;
+		font-weight: 300;
+		font-weight: bold;
+	}
+}
+
+.EventTile_time {
+	width: 100%;
+	text-align: center;
+}
+
+.EventTile_date {
+	width: 88%;
+	text-align: center;
+	font-size: 0.8rem;
+}
+
+.EventTile_location {
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+	width: 25%;
+}
+
+.EventTile_country {
+	width: 100%;
+	text-align: left;
+	font-size: 0.8rem;
+	color: grey;
+}
+
+.EventTile_button {
+	width: 15%;
+
+	button {
+		border-radius: 4px !important;
+		border: none !important;
+		box-shadow: 0px 4px 10px rgba(132, 136, 136, 0.342) !important;
+	}
+}
+
+.EventTile_width33 {
+	width: 33.33%;
+}
+
+//////f1 event tile
+
+.f1_EventTile_league_logo_div {
+	width: 2%;
+}
+.f1_EventTile_card_team_name {
+	margin-top: 10%;
+	font-size: 1rem;
+	font-weight: 800;
+	text-align: center;
+	color:black
+}
+.f1_EventTile_card_location {
+	font-size: 0.7rem;
+	font-weight: 300;
+	line-height: 0.3rem;
+}
+
+// -------------------.EventTile Tile responsive-------------------------
+
+// @media only screen and (max-width:1151px){
+// 	.EventTile{
+// 		color: black;
+// 		background-color: #F5F5F5;
+// 		padding: 4%;
+// 		height: 100%;
+// 		width: 100%;
+// 		display: flex;
+// 		flex-direction: row;
+// 	}
+// 	.EventTile_teams{
+// 		width: 20%;
+// 		display: flex;
+// 		flex-direction: row;
+// 		font-family: 'Lato', sans-serif;
+// 		font-size: 0.9rem;
+// 		font-weight: 400;
+
+// 		div{
+// 			img{
+// 				width: 1.3rem;
+// 			}
+// 		}
+// 	}
+
+// .EventTile_button{
+// 	width: 15%;
+// 	button{
+// 		// width:60px;
+// 		border-radius: 4px !important;
+// 		border: none !important;
+// 		box-shadow: 0px 4px 10px rgba(132, 136, 136, 0.342)  !important;
+
+// 	}
+
+// }
+
+// }
+// @media only screen and (max-width:1151px){
+// 	.EventTile{
+// 		color: black;
+// 		background-color: #F5F5F5;
+// 		padding: 4.5%;
+// 		height: 100%;
+// 		width: 100%;
+// 		display: flex;
+// 		flex-direction: row;
+// 	}
+// 	.EventTile_teams{
+// 		width: 30%;
+// 		display: flex;
+// 		flex-direction: row;
+// 		font-family: 'Lato', sans-serif;
+// 		font-size: 1rem;
+// 		font-weight: 400;
+
+// 		div{
+// 			img{
+// 				width: 1.2rem;
+// 			}
+// 		}
+// 	}
+
+// .EventTile_button{
+// 	width: 20%;
+// 	button{
+// 		// width:60px;
+// 		border-radius: 4px !important;
+// 		border: none !important;
+// 		box-shadow: 0px 4px 10px rgba(132, 136, 136, 0.342)  !important;
+
+// 	}
+
+// }
+
+// }
+// @media only screen and (max-width:995px){
+// 	.EventTile{
+// 		color: black;
+// 		background-color: #F5F5F5;
+// 		padding: 4.5%;
+// 		height: 100%;
+// 		width: 100%;
+// 		display: flex;
+// 		flex-direction: row;
+// 	}
+// 	.EventTile_teams{
+// 		width: 30%;
+// 		display: flex;
+// 		flex-direction: row;
+// 		font-family: 'Lato', sans-serif;
+// 		font-size: 0.8rem;
+// 		font-weight: 400;
+
+// 		div{
+// 			img{
+// 				width: 1.2rem;
+// 			}
+// 		}
+// 	}
+// 	.EventTile_tag{
+// 		span{
+// 		font-size: 0.6rem;;
+// 		}
+// 	}
+// 	.EventTile_date{
+// 		width: 88%;
+// 		text-align: center;
+// 		font-size: 0.6rem;
+// 	}
+// 	.EventTile_location{
+// 		text-align: left;
+// 		font-family: 'Lato', sans-serif;
+// 		width: 25%;
+// 		font-size: 0.7rem;
+// 	}
+
+// 	.EventTile_country{
+// 		width: 100%;
+// 		text-align: left;
+// 		font-size: 0.5rem;
+// 		color: grey;
+// 	}
+
+// .EventTile_button{
+// 	width: 15%;
+// 	button{
+// 		// width:60px;
+// 		border-radius: 4px !important;
+// 		font-size: 0.6rem;
+// 		border: none !important;
+// 		box-shadow: 0px 4px 10px rgba(132, 136, 136, 0.342)  !important;
+
+// 	}
+
+// }
+
+// }
+// @media only screen and (max-width:855px){
+// 	.EventTile{
+// 		color: black;
+// 		background-color: #F5F5F5;
+// 		padding: 5%;
+// 		height: 100%;
+// 		width: 100%;
+// 		display: flex;
+// 		flex-direction: row;
+// 	}
+// 	.EventTile_teams{
+// 		width: 30%;
+// 		display: flex;
+// 		flex-direction: row;
+// 		font-family: 'Lato', sans-serif;
+// 		font-size: 0.6rem;
+// 		font-weight: 400;
+
+// 		div{
+// 			img{
+// 				width: 1rem;
+// 			}
+// 		}
+// 	}
+// 	.EventTile_tag{
+// 		span{
+// 		font-size: 0.5rem;;
+// 		}
+// 	}
+// 	.EventTile_date{
+// 		width: 88%;
+// 		text-align: center;
+// 		font-size: 0.5rem;
+// 	}
+// 	.EventTile_location{
+// 		text-align: left;
+// 		font-family: 'Lato', sans-serif;
+// 		width: 25%;
+// 		font-size: 0.6rem;
+// 	}
+
+// 	.EventTile_country{
+// 		width: 100%;
+// 		text-align: left;
+// 		font-size: 0.4rem;
+// 		color: grey;
+// 	}
+
+// .EventTile_button{
+// 	width: 15%;
+// 	button{
+// 		// width:60px;
+// 		border-radius: 4px !important;
+// 		font-size: 0.5rem;
+// 		border: none !important;
+// 		box-shadow: 0px 4px 10px rgba(132, 136, 136, 0.342)  !important;
+
+// 	}
+
+// }
+
+// }

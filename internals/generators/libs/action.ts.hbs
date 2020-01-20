@@ -1,0 +1,19 @@
+/*
+*
+* {{ name }} actions
+*
+*/
+import { createAsyncAction } from 'typesafe-actions'
+import {
+INITIALIZE,
+INITIALIZE_SUCCESS,
+INITIALIZE_FAILURE,
+INITIALIZE_CANCEL
+} from 'libs/{{ name }}/constant'
+
+export const initialize{{ properCase name }}Async = createAsyncAction(
+INITIALIZE,
+INITIALIZE_SUCCESS,
+INITIALIZE_FAILURE,
+INITIALIZE_CANCEL
+)<boolean, boolean, Error, boolean>();

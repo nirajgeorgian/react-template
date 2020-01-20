@@ -1,0 +1,19 @@
+/*
+*
+* {{ name }} reducer
+*
+*/
+import { createReducer } from 'typesafe-actions'
+
+import { initialize{{ properCase name }}Async } from 'libs/{{ name}}/action'
+import {iInitial{{ properCase name}}State} from 'libs/{{ name }}/state'
+
+export const {{ name}}Reducer = createReducer(iInitial{{ properCase name}}State)
+.handleAction([initialize{{ properCase name }}Async.request, initialize{{ properCase name }}Async.failure,
+initialize{{ properCase name }}Async.cancel],
+(iState) => iState.set('initialized', false)
+)
+.handleAction([initialize{{ properCase name }}Async.success], (iState) => iState.set('initialized', true))
+
+
+export default {{ name}}Reducer
